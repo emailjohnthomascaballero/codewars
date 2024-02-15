@@ -396,3 +396,59 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# VSCode
+.vscode/
+
+# Editor-specific files
+*~
+*.swp
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Yarn
+yarn-error.log
+.yarn-integrity
+
+# dotenv
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build files
+build/
+dist/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# IDE settings
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+ehthumbs.db
+Thumbs.db

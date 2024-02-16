@@ -37,6 +37,9 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+#### Libraries
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

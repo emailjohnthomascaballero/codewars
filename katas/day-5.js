@@ -5,5 +5,11 @@
 // 5, "Hello" -> "HelloHelloHelloHelloHello"
 
 function repeatStr (n, s) {
-  return '';
+  // let integer = n;
+  // let string = s;
+  
+  return s.repeat(n);
 }
+
+console.log(repeatStr(3, "*"))
+console.log(repeatStr(2, "ha "))

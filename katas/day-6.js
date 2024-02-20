@@ -9,7 +9,9 @@
 
 function numberToString(num) {
   // Return a string of the number here!
-  return num;
+  // let text = num.toString();
+  // return typeof text;
+  return num.toString();
 }
 
-console.log(numberToString(num));
+console.log(numberToString(123));

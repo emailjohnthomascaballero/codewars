@@ -5,3 +5,8 @@
 // 14: -14
 // -34: 34
 
+function opposite(number) {
+  return invert(number);
+}
+
+console.log(opposite(1));

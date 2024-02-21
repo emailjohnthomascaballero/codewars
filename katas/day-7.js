@@ -6,7 +6,7 @@
 // -34: 34
 
 function opposite(number) {
-  return invert(number);
+  return number * -1;
 }
 
-console.log(opposite(1));
+console.log(opposite(-34));

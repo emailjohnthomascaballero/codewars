@@ -10,6 +10,9 @@
 
 class SmallestIntegerFinder {
   findSmallestInt(args) {
-    
+    return Math.min(...args);
   }
 }
+
+let mySmallest = new SmallestIntegerFinder();
+console.log(mySmallest.findSmallestInt([34, -345, -1, 100]));

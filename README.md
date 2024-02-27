@@ -52,6 +52,12 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/emailjohnthomascaballero">
+    <img src="./50-plus-honor.png" width="100%">
+  </a>
+</p>
+
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

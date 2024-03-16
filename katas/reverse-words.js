@@ -11,6 +11,7 @@ function reverseWords(str) {
   return myArray.split(' ').reverse().join(' ');
 }
 
+console.log(reverseWords("This is an example!"));
 console.log(reverseWords("double spaces"));
 
 // psudo code

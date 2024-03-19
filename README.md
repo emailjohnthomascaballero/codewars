@@ -51,6 +51,8 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
     <img src="./7-kyu.png" width="100%">
     <img src="./50-plus-honor.png" width="100%">
     <img src="./75-plus-honor.png" width="100%">
+    <img src="./100-plus-honor.png" width="100%">
+    <img src="./6-kyu.png" width="100%">
   </a>
 </p>
 

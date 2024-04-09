@@ -14,7 +14,6 @@
   <ol type="I">
     <li><a href="#about">About the Project</a></li>
     <li><a href="#languages">Languages & Tools Used</a></li>
-<!--     <li><a href="#project-link">Project Link</a></li> -->
     <li><a href="#achievements">Achievements</a></li>
     <li><a href="#usage">Usage</a></li>
   </ol>

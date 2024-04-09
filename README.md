@@ -3,6 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/emailjohnthomascaballero">
+    <img src="https://www.codewars.com/users/emailjohnthomascaballero/badges/large" width="100%">
     <img src="./codewars-banner.png" width="100%">
   </a>
 </p>

@@ -14,7 +14,7 @@
   <ol type="I">
     <li><a href="#about">About the Project</a></li>
     <li><a href="#languages">Languages & Tools Used</a></li>
-    <li><a href="#project-link">Project Link</a></li>
+<!--     <li><a href="#project-link">Project Link</a></li> -->
     <li><a href="#achievements">Achievements</a></li>
     <li><a href="#usage">Usage</a></li>
   </ol>
@@ -45,7 +45,7 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<h2 id="achievements">IV. Achievements</h2>
+<h2 id="achievements">III. Achievements</h2>
 
 <p align="center">
   <a href="https://github.com/emailjohnthomascaballero/codewars">
@@ -61,7 +61,7 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<h2 id="usage">V. Usage</h2>
+<h2 id="usage">IV. Usage</h2>
 
 _Below is an example of how you can install and setup the application on your device._
 

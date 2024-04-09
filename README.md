@@ -2,7 +2,7 @@
 <p class="header">This GitHub repository documents my CodeWars journey—a collection of coding challenges, solutions, and progress as I sharpen my programming skills.</p>
 
 <p align="center">
-  <a href="https://github.com/emailjohnthomascaballero">
+  <a href="https://github.com/emailjohnthomascaballero/codewars">
     <img src="https://www.codewars.com/users/emailjohnthomascaballero/badges/large" width="100%">
     <img src="./codewars-banner.png" width="100%">
   </a>

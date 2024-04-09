@@ -48,7 +48,7 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 <h2 id="achievements">IV. Achievements</h2>
 
 <p align="center">
-  <a href="https://github.com/emailjohnthomascaballero">
+  <a href="https://github.com/emailjohnthomascaballero/codewars">
     <img src="./7-kyu.png" width="100%">
     <img src="./50-plus-honor.png" width="100%">
     <img src="./75-plus-honor.png" width="100%">

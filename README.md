@@ -12,7 +12,7 @@
 <details>
   <summary>VIEW TABLE OF CONTENTS</summary>
   <ol type="I">
-    <li><a href="#about">About the Project</a></li>
+    <li><a href="#about">About the Journey</a></li>
     <li><a href="#languages">Languages & Tools Used</a></li>
     <li><a href="#achievements">Achievements</a></li>
     <li><a href="#usage">Usage</a></li>

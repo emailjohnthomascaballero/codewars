@@ -2,7 +2,8 @@
 <p class="header">This GitHub repository documents my CodeWars journey—a collection of coding challenges, solutions, and progress as I sharpen my programming skills.</p>
 
 <p align="center">
-  <a href="https://github.com/emailjohnthomascaballero">
+  <a href="https://github.com/emailjohnthomascaballero/codewars">
+    <img src="https://www.codewars.com/users/emailjohnthomascaballero/badges/large" width="100%">
     <img src="./codewars-banner.png" width="100%">
   </a>
 </p>
@@ -11,9 +12,8 @@
 <details>
   <summary>VIEW TABLE OF CONTENTS</summary>
   <ol type="I">
-    <li><a href="#about">About the Project</a></li>
+    <li><a href="#about">About the Journey</a></li>
     <li><a href="#languages">Languages & Tools Used</a></li>
-    <li><a href="#project-link">Project Link</a></li>
     <li><a href="#achievements">Achievements</a></li>
     <li><a href="#usage">Usage</a></li>
   </ol>
@@ -44,10 +44,10 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<h2 id="achievements">IV. Achievements</h2>
+<h2 id="achievements">III. Achievements</h2>
 
 <p align="center">
-  <a href="https://github.com/emailjohnthomascaballero">
+  <a href="https://github.com/emailjohnthomascaballero/codewars">
     <img src="./7-kyu.png" width="100%">
     <img src="./50-plus-honor.png" width="100%">
     <img src="./75-plus-honor.png" width="100%">
@@ -60,7 +60,7 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<h2 id="usage">V. Usage</h2>
+<h2 id="usage">IV. Usage</h2>
 
 _Below is an example of how you can install and setup the application on your device._
 

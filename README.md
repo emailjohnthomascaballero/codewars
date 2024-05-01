@@ -49,10 +49,15 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 <p align="center">
   <a href="https://github.com/emailjohnthomascaballero/codewars">
     <img src="./7-kyu.png" width="100%">
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
     <img src="./50-plus-honor.png" width="100%">
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
     <img src="./75-plus-honor.png" width="100%">
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
     <img src="./100-plus-honor.png" width="100%">
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
     <img src="./6-kyu.png" width="100%">
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
     <img src="./6-kyu-js.png" width="100%">
   </a>
 </p>

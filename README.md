@@ -33,7 +33,6 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 ![Static Badge](https://img.shields.io/badge/GIT-orange?style=for-the-badge&logo=git&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=gitHUB&logoColor=white)
 
-
 #### Development
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)

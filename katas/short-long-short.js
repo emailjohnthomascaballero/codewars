@@ -13,7 +13,7 @@
 function solution(a, b) {
   let arr = [];
   if (a.length > b.length) {
-    arr.push(a);
+    arr.push(a.unshift(b.push(b)));
     arr.unshift(b);
     arr.push(b);
   } else if (a.length < b.length) {

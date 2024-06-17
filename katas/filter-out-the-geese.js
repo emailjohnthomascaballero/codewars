@@ -15,6 +15,16 @@
 
 function gooseFilter (birds) {
   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+
+  const result = geese.filter(checkGeese);
+
+  function checkGeese(geese) {
+    return geese != birds;
+  }
+
+  return result;
   
   // return an array containing all of the strings in the input array except those that match strings in geese
 };
+
+console.log(gooseFilter(["African", "Roman Tufted", "Toulouse", "Pilgrim", "Crested"]))

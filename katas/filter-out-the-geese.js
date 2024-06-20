@@ -16,12 +16,7 @@
 function gooseFilter (birds) {
   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 
-  const resultGeese = geese.filter(geese => geese == birds);
-  const resultBirds = birds.filter(bird => bird != resultGeese);
-
-  return resultBirds;
-  
-  // return an array containing all of the strings in the input array except those that match strings in geese
+  return birds.filter(bird => !geese.includes(bird));
 };
 
 console.log(gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]))

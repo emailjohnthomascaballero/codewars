@@ -58,6 +58,8 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
     <img src="./6-kyu.png" width="100%">
     <p align="right">(<a href="#readme-top">back to top</a>)</p>
     <img src="./6-kyu-js.png" width="100%">
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
+    <img src="./5-kyu-js.jpg" width="100%">
   </a>
 </p>
 

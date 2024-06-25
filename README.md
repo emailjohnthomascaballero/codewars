@@ -9,6 +9,7 @@
 </p>
 
 ## Table of Contents
+
 <details>
   <summary>VIEW TABLE OF CONTENTS</summary>
   <ol type="I">
@@ -30,14 +31,17 @@ In this coding journey, I am dedicated to honing my logical thinking and algorit
 <h2 id="languages">II. Languages and Tools Used</h2>
 
 #### Planning
+
 ![Static Badge](https://img.shields.io/badge/GIT-orange?style=for-the-badge&logo=git&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/GITHUB-black?style=for-the-badge&logo=gitHUB&logoColor=white)
 
 #### Development
+
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 #### Libraries
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
 <!-- Back to Top -->
@@ -74,5 +78,5 @@ _Below is an example of how you can install and setup the application on your de
    ```sh
    git clone https://github.com/emailjohnthomascaballero/codewars.git
    ```
-<!-- Back to Top -->
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+   <!-- Back to Top -->
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>

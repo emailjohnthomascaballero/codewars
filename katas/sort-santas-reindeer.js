@@ -36,5 +36,5 @@
 // ]
 
 function sortReindeer(reindeerNames) {
-  return
+  return reindeerNames
 }

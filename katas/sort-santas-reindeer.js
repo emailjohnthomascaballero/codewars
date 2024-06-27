@@ -36,7 +36,7 @@
 // ]
 
 function sortReindeer(reindeerNames) {
-  return reindeerNames;
+  return reindeerNames.slice().sort((firstItem, secondItem) => firstItem.slice(1) - secondItem.slice(1));
 }
 
 console.log(sortReindeer(["Dasher Tonoyan", "Dancer Moore", "Prancer Chua", "Vixen Hall", "Comet Karavani", "Cupid Foroutan", "Donder Jonker", "Blitzen Claus"]));

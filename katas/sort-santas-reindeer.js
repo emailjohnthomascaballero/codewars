@@ -36,5 +36,7 @@
 // ]
 
 function sortReindeer(reindeerNames) {
-  return reindeerNames;
+  return reindeerNames.sort();
 }
+
+console.log(sortReindeer(["Dasher Tonoyan", "Dancer Moore", "Prancer Chua", "Vixen Hall", "Comet Karavani", "Cupid Foroutan", "Donder Jonker", "Blitzen Claus"]));

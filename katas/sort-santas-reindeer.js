@@ -13,13 +13,13 @@
 // For this input:
 
 // [
-//   "Dasher Tonoyan", 
-//   "Dancer Moore", 
-//   "Prancer Chua", 
-//   "Vixen Hall", 
-//   "Comet Karavani",        
-//   "Cupid Foroutan", 
-//   "Donder Jonker", 
+//   "Dasher Tonoyan",
+//   "Dancer Moore",
+//   "Prancer Chua",
+//   "Vixen Hall",
+//   "Comet Karavani",
+//   "Cupid Foroutan",
+//   "Donder Jonker",
 //   "Blitzen Claus"
 // ]
 // You should return this output:
@@ -27,14 +27,14 @@
 // [
 //   "Prancer Chua",
 //   "Blitzen Claus",
-//   "Cupid Foroutan", 
-//   "Vixen Hall", 
-//   "Donder Jonker", 
+//   "Cupid Foroutan",
+//   "Vixen Hall",
+//   "Donder Jonker",
 //   "Comet Karavani",
-//   "Dancer Moore", 
+//   "Dancer Moore",
 //   "Dasher Tonoyan",
 // ]
 
 function sortReindeer(reindeerNames) {
-  return reindeerNames
+  return reindeerNames;
 }

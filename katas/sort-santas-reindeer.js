@@ -36,7 +36,31 @@
 // ]
 
 function sortReindeer(reindeerNames) {
-  return reindeerNames.slice();
-}
+  return reindeerNames.slice(' ').sort((a, b) => 
+{
+    const lastNameA = a.split(' ')[1];
+    const lastNameB = b.split(' ')[1];
 
-console.log(sortReindeer(["Dasher Tonoyan", "Dancer Moore", "Prancer Chua", "Vixen Hall", "Comet Karavani", "Cupid Foroutan", "Donder Jonker", "Blitzen Claus"]));
+    if (lastNameA == lastNameB) {
+      return 0;
+    } else {
+      return a.split(' ')[1] > b.split(' ')[1] ? 1 : -1;
+    }
+})
+};
+    // a.split(' ')[1] > b.split(' ')[1] ? 1 : -1;
+
+  // let lastName = reindeerNames.slice(' ').sort((a, b) => a.split(' ')[1] > b.split(' ')[1] ? 1 : -1);
+  // return lastName.slice(' ').sort((a, b) => a.split(' ')[0] > b.split(' ')[0] ? -1 : 1);
+
+
+// const sortReindeer = (reindeerNames) => reindeerNames.slice(' ').sort((a, b) => a.split(' ')[1] > b.split(' ')[1] ? 1 : -1);
+
+console.log(sortReindeer(["Dasher Tonoyan", "Dancer Moore", "Prancer Chua", "Vixen Hall", "Comet Karavani", "Cupid Foroutan", "Donder Jonker", "Blitzen Claus", 'Kenjiro Mori', 'Susumu Mori', 'Akira Mori' ]));
+
+// compare alphabet which is greater than or less-than
+// function abc(params) {
+//   return params < "z";
+// }
+
+// console.log(abc("a"))

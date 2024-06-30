@@ -14,9 +14,9 @@
 // If you still don't get it probably you can define main as an attribute of the Solution class that accepts a single argument, and that only prints "Hello World!" without any return.
 
 class Solution {
-  static main(parameter1, parameter2) {
+  static main() {
     console.log("Hello World!");
   }
 }
 
-Solution.main("parameter1", "parameter2");
+Solution.main();

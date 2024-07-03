@@ -7,7 +7,7 @@
 // Function should return true if it is possible and false if not.
 
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-  // TODO
+  return mpg * fuelLeft >= distanceToPump;
 };
 
 console.log(zeroFuel(50, 25, 2));

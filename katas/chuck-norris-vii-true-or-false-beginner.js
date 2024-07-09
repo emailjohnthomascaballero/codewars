@@ -8,6 +8,8 @@
 
 // Go show some truth who's boss!
 
-function ifChuckSaysSo(){
-
+function ifChuckSaysSo() {
+  return !true;
 }
+
+console.log(ifChuckSaysSo());

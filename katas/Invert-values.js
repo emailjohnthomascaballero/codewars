@@ -11,9 +11,7 @@
 function invert(array) {
   // return -Math.abs(array);
   // return array.map(x => -Math.abs(x));
-  return array.map(x => 
-    x < 0 ? Math.abs(x) : x == 0 ? x : -Math.abs(x)
-  );
+  return array.map((x) => (x < 0 ? Math.abs(x) : x == 0 ? x : -Math.abs(x)));
 }
 
 console.log(invert([1, 2, 3, 4, 5]));

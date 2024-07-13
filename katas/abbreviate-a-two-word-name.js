@@ -11,9 +11,7 @@
 // patrick feeney => P.F
 
 function abbrevName(name){
-
-  return name.split(" ")
-
+  return name.split(" ").map(a => a.split("")[0].toUpperCase()).join('.');
 }
 
-console.log(abbrevName("Sam Harris"))
+console.log(abbrevName("Sam harris"))

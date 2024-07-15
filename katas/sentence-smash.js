@@ -5,9 +5,11 @@
 // Example
 // ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 
-function smash (words) {
-  return ""
-};
+// function smash (words) {
+//   return words.join(' ');
+// };
+
+let smash = (words) => words.join(' ');
 
 console.log(smash(["hello", "world", "this", "is", "great"]));
 console.log(smash(["this", "is", "a", "really", "long", "sentence"]));

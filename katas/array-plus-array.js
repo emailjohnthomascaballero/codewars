@@ -5,10 +5,12 @@
 // P.S. Each array includes only integer numbers. Output is a number too.
 
 // function arrayPlusArray(arr1, arr2) {
-//   return arr1.reduce((total, num) => total + num) + arr2.reduce((total, num) => total + num); 
+//   return arr1.reduce((total, num) => total + num) + arr2.reduce((total, num) => total + num);
 // }
 
-const arrayPlusArray = (arr1, arr2) => arr1.reduce((total, num) => total + num) + arr2.reduce((total, num) => total + num);
+const arrayPlusArray = (arr1, arr2) =>
+  arr1.reduce((total, num) => total + num) +
+  arr2.reduce((total, num) => total + num);
 
 console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
 console.log(arrayPlusArray([-1, -2, -3], [-4, -5, -6]));

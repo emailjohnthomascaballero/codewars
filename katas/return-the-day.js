@@ -12,10 +12,8 @@
 // Otherwise returns "Wrong, please enter a number between 1 and 7"
 
 function whatday(num) { 
-
-  
-
-
+  const weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  return weekday[num-1] == undefined ? "Wrong, please enter a number between 1 and 7" : weekday[num-1];
 }
 
 console.log(whatday(1));

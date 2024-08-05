@@ -15,7 +15,15 @@
 // text after  = "zzz"
 
 function contamination(text, char){
-  // Code here ;)
+  // return text.length
+  let newChar = [];
+  for (let index = 0; index < text.length; index++) {
+    newChar[index] = char
+  }
+  return newChar.join('');
 }
 
 console.log(contamination("abc", "z"));
+console.log(contamination("", "z"));
+console.log(contamination("abc", ""));
+console.log(contamination("//case", " "));

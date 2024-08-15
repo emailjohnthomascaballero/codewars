@@ -102,4 +102,5 @@ function padIt(str,n){
   //coding here
 }
 
-console.log(padIt("Hello",3))
+console.log(padIt("a",1))
+console.log(padIt("a",2))

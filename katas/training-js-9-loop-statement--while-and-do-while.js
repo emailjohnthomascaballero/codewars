@@ -99,7 +99,19 @@
 // #42: Regular Expression--(?:), (?=) and (?!)
 
 function padIt(str,n){
-  //coding here
+  var sum='',num=1, sum2='', num2=1;
+  do{
+    sum+='*';
+    num++;
+
+    while (num<=n){
+      sum2+='*';
+      num2++;
+    }
+
+  }while (num<=n)
+  return `${sum}${str}${sum2}`;   
+  
 }
 
 console.log(padIt("a",1))

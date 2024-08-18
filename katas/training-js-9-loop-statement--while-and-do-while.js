@@ -101,18 +101,27 @@
 function padIt(str,n){
   var sum='',num=1, sum2='', num2=1;
   do{
-    sum+='*';
-    num++;
-
-    while (num<=n){
-      sum2+='*';
-      num2++;
+    if (num %2!==0){
+      sum+='*';
     }
-
+    // sum+='*';
+    num++;
   }while (num<=n)
+
+  do{
+    if (num2 %2==0){
+      sum2+='*';
+    }
+    // sum2+='*';
+    num2++;
+  }while (num2<=n)
+
   return `${sum}${str}${sum2}`;   
   
 }
 
 console.log(padIt("a",1))
 console.log(padIt("a",2))
+console.log(padIt("a",3))
+console.log(padIt("a",4))
+console.log(padIt("a",5))

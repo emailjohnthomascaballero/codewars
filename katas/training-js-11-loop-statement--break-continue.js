@@ -93,3 +93,26 @@ function grabDoll(dolls){
   
   return bag;
 }
+
+
+// function findFirstOddNumber(arr){
+//   var result;
+//   for (var i=0;i<arr.length;i++){
+//     if (arr[i]%2==1){
+//       result=arr[i];
+//       break;
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(findFirstOddNumber([1,2,3,4,5,6,7,8,9,10]));
+
+// function dontDisplayNegative(arr){
+//   for (var i=0;i<arr.length;i++){
+//     if (arr[i]<0) continue;   
+//     console.log(arr[i])
+//   }
+// }
+
+// dontDisplayNegative([1,2,3,4,5,6,7,8,9,10]);

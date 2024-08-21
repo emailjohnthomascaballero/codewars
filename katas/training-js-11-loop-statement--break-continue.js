@@ -89,10 +89,17 @@
 
 function grabDoll(dolls){
   var bag=[];
-  //coding here
+  for (let i = 0; i < dolls.length; i++) {
+    // const element = array[i];
+    if (dolls[i] === "Hello Kitty" || dolls[i] === "Barbie doll") {
+      dolls[i].push(bag);
+    }
+  }
   
   return bag;
 }
+
+console.log(grabDoll(["Mickey Mouse","Hello Kitty","Snow white"]));
 
 
 // function findFirstOddNumber(arr){

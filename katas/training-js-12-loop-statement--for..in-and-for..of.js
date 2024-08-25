@@ -145,17 +145,25 @@
 
 // showObjectValues({Our:"earth",is:"a",beautyful:"world"});
 
-function showObjectKeys(obj){
-  for (var key in obj){
-    console.log(key);
+// function showObjectKeys(obj){
+//   for (var key in obj){
+//     console.log(key);
+//   }
+// }
+
+// function showObjectValues(obj){
+//   for (var key in obj){
+//     console.log(obj[key]);
+//   }
+// }
+
+// showObjectKeys(["one","two","three"])
+// showObjectValues(["one","two","three"])
+
+function showArrayValues(arr){
+  for (var value of arr){
+    console.log(value);
   }
 }
 
-function showObjectValues(obj){
-  for (var key in obj){
-    console.log(obj[key]);
-  }
-}
-
-showObjectKeys(["one","two","three"])
-showObjectValues(["one","two","three"])
+showArrayValues(["one","two","three"])

@@ -122,10 +122,23 @@
 // #41: Regular Expression--""
 // #42: Regular Expression--(?:), (?=) and (?!)
 
-// function giveMeFive(obj){
-//   //coding here
+function giveMeFive(obj){
+  for (var key in obj){
+    // console.log(obj[key]);
+    console.log(key.length);
+    
+    if (key.length == 5){
+      // let arr = [];
+      // arr.push(key);
+      // return arr;
+      // console.log(key.length);
+      console.log('a');
+  }
   
-// }
+}
+}
+
+giveMeFive({Our:"earth",is:"a",beautyful:"world"});
 
 // console.log(giveMeFive({Our:"earth",is:"a",beautyful:"world"}));
 
@@ -160,10 +173,10 @@
 // showObjectKeys(["one","two","three"])
 // showObjectValues(["one","two","three"])
 
-function showArrayValues(arr){
-  for (var value of arr){
-    console.log(value);
-  }
-}
+// function showArrayValues(arr){
+//   for (var value of arr){
+//     console.log(value);
+//   }
+// }
 
-showArrayValues(["one","two","three"])
+// showArrayValues(["one","two","three"])

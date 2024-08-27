@@ -122,23 +122,22 @@
 // #41: Regular Expression--""
 // #42: Regular Expression--(?:), (?=) and (?!)
 
-function giveMeFive(obj){
-  for (var key in obj){
-    // console.log(obj[key]);
-    console.log(key.length);
-    
-    if (key.length == 5){
-      // let arr = [];
-      // arr.push(key);
-      // return arr;
-      // console.log(key.length);
-      console.log('a');
+function giveMeFive(obj) {
+  let arr = [];
+  for (var key in obj) {
+    if (key.length == 5) {
+      arr.push(key);
+    }
+    if (obj[key].length == 5) {
+      arr.push(obj[key]);
+    }
   }
-  
-}
+  return arr;
 }
 
-giveMeFive({Our:"earth",is:"a",beautyful:"world"});
+console.log(giveMeFive({ Our: "earth", is: "a", beautyful: "world" }));
+console.log(giveMeFive({ Ihave: "enough", money: "to", buy: "a", car: "model" }));
+console.log(giveMeFive({ Pears: "than", apple: "sweet" }));
 
 // console.log(giveMeFive({Our:"earth",is:"a",beautyful:"world"}));
 

@@ -91,8 +91,33 @@
 // #42: Regular Expression--(?:), (?=) and (?!)
 
 function whatNumberIsIt(n){
-  //coding here
+  var num=Number(n);
+  // return num;
+  // return num == Number.MAX_VALUE
+  // return isNaN(num)
   
+  if (isNaN(num)) {
+    return "Input number is Number.NaN"
+  } if (num == 'Infinity') {
+    return "Input number is Number.POSITIVE_INFINITY"
+  } if (num == Number.MAX_VALUE) {
+    return "Input number is Number.MAX_VALUE"
+  } if (num == Number.MIN_VALUE) {
+    return "Input number is Number.MIN_VALUE"
+  } if (num == Number.NEGATIVE_INFINITY) {
+    return "Input number is Number.NEGATIVE_INFINITY"
+  } if (num == Number.POSITIVE_INFINITY) {
+    return "Input number is Number.POSITIVE_INFINITY"
+  } else {
+    return `Input number is ${num}`
+  }
 }
 
 console.log(whatNumberIsIt(1/0))
+console.log(whatNumberIsIt(100))
+console.log(whatNumberIsIt(1.7976931348623157e+308))
+console.log(whatNumberIsIt(5e-324))
+console.log(whatNumberIsIt(-Number.MAX_VALUE*2))
+console.log(whatNumberIsIt(NaN))
+console.log(whatNumberIsIt(Infinity+1))
+// console.log(whatNumberIsIt("a"))

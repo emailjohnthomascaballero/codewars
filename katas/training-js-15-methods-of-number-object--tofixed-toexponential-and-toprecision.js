@@ -121,8 +121,8 @@
 
 
 function howManySmaller(arr,n){
-  //coding here..
   
 }
 
 console.log(howManySmaller([1.234,1.235,1.228],1.24))
+

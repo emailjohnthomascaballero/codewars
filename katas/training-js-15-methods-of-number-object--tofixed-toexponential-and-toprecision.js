@@ -120,10 +120,18 @@
 // #42: Regular Expression--(?:), (?=) and (?!)
 
 function howManySmaller(arr, n) {
+  let arr2 = [];
   for (let i = 0; i < arr.length; i++) {
+    
+    if (arr[i].toFixed(2) < n) {
+      arr2.push(arr[i].toFixed(2));
+    }
     // return value.toFixed(2);
-    return arr[i]
+    // return arr[i]
   }
+  return arr2.length;
 }
 
 console.log(howManySmaller([1.234, 1.235, 1.228], 1.24));
+
+

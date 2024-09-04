@@ -145,6 +145,12 @@
 // #42: Regular Expression--(?:), (?=) and (?!)
 
 function cutIt(arr){
-  //coding here...
-  
+  let array = [];
+  for (let i = 0; i < arr.length; i++) {
+    array.push(arr[i].length)
+  }
+  // return array;
+  return Math.min(parseInt(...array));
 }
+
+console.log(cutIt(["ab","cde","fgh"]))

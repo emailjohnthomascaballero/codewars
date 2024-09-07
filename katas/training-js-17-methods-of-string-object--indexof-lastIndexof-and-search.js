@@ -117,7 +117,16 @@
 
 function firstToLast(str,c){
   //coding here..
-  
+  // return str.match(c).length
+  const charLength = str.split(c).length -1
+  // return charLength;
+  if (charLength > 1) {
+    return str.indexOf(c, charLength);
+  } else {
+    return 0
+  }
 }
 
 console.log(firstToLast("ababc","a"))
+console.log(firstToLast("ababc","c"))
+console.log(firstToLast("ababc","d"))

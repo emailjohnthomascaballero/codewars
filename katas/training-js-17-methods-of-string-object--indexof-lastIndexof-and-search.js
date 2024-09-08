@@ -116,15 +116,25 @@
 // #42: Regular Expression--(?:), (?=) and (?!)
 
 function firstToLast(str,c){
-  //coding here..
+
   // return str.match(c).length
+
   const charLength = str.split(c).length -1
+
   // return charLength;
-  if (charLength > 1) {
-    return str.indexOf(c, charLength);
-  } else {
-    return 0
-  }
+
+  // if (charLength > 1 || charLength == 0) {
+  //   return str.indexOf(c, charLength);
+  // } else {
+  //   return 0
+  // }
+  // if (charLength > 1 || charLength == 0) {
+  //   return str.indexOf(c, charLength);
+  // } else {
+  //   return 0
+  // }
+
+  return charLength > 1 || charLength == 0 ? str.indexOf(c, charLength) : 0
 }
 
 console.log(firstToLast("ababc","a"))

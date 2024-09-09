@@ -120,7 +120,8 @@ function firstToLast(str,c){
   // return str.match(c).length
 
   const charLength = str.split(c).length -1
-
+  const charArr = str.split('');
+  const charArrNew = [];
   // return charLength;
 
   // if (charLength > 1 || charLength == 0) {
@@ -128,15 +129,28 @@ function firstToLast(str,c){
   // } else {
   //   return 0
   // }
-  // if (charLength > 1 || charLength == 0) {
-  //   return str.indexOf(c, charLength);
-  // } else {
-  //   return 0
-  // }
+  
 
-  return charLength > 1 || charLength == 0 ? str.indexOf(c, charLength) : 0
+  // return first index: str.search(c), 
+  // return last index: str.lastIndexOf(c)
+  if (charLength > 1) {
+    // return str.indexOf(c, str.search(c));
+    for (let i = str.search(c); i < str.lastIndexOf(c); i++) {
+      // const element = array[i];
+      // console.log(i)
+      charArrNew.push(charArr[i])
+    }
+  } else if (charLength == 0){
+    return -1
+  } else {
+    return 0
+  }
+  // return charArr
+  return charArrNew.length;
+  // return charLength > 1 || charLength == 0 ? str.indexOf(c, charLength) : 0
 }
 
 console.log(firstToLast("ababc","a"))
 console.log(firstToLast("ababc","c"))
 console.log(firstToLast("ababc","d"))
+console.log(firstToLast("orygrxyqlwsiksvtkewknvueicfzthxkxqxvwclyxowyqco","t"))

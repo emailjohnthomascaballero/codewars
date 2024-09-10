@@ -123,7 +123,7 @@
 // #42: Regular Expression--(?:), (?=) and (?!)
 
 function splitAndMerge(string, separator) {
-  return
+  return string.split('').join(separator);
 }
 
 console.log(splitAndMerge("My name is John", " "));

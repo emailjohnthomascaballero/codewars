@@ -123,7 +123,20 @@
 // #42: Regular Expression--(?:), (?=) and (?!)
 
 function splitAndMerge(string, separator) {
-  return string.split('').join(separator);
+  // return string.split('').join(separator);
+  // let str = string.split(' ').join(' ');
+  // return str.split('').join(separator);
+
+  // return str.split(' ').join(separator);
+
+  // return str;
+
+  // return string.split(' ').join('').split('').join(separator);
+
+  return string.split(' ').map(word => word.split('').join(separator)).join(' ');
 }
 
 console.log(splitAndMerge("My name is John", " "));
+console.log(splitAndMerge("My name is John", "-"));
+console.log(splitAndMerge("Hello World!", "."));
+console.log(splitAndMerge("Hello World!",","));

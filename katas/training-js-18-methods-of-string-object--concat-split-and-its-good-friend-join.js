@@ -124,7 +124,9 @@
 
 function splitAndMerge(string, separator) {
   // return string.split('').join(separator);
+  
   // let str = string.split(' ').join(' ');
+
   // return str.split('').join(separator);
 
   // return str.split(' ').join(separator);

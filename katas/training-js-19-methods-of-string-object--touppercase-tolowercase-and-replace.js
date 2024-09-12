@@ -137,8 +137,21 @@
 // #42: Regular Expression--(?:), (?=) and (?!)
 
 function alienLanguage(str){
-  //coding here...
-  
+  let words = str.toUpperCase().split(' ');
+  for (let i = 0; i < words.length; i++) {
+    // const element = array[i];
+    // return words.lastIndexOf(words[i])
+    // words[i]=words[i][words.length - 1]
+    words[i]=words[i][words.length - 1]
+  }
+  return words;
 }
 
 console.log(alienLanguage("My name is John"));
+
+// var str="this is an example.";
+// var words=str.split(" ");
+// for (var i=0;i<words.length;i++){
+//   words[i]=words[i][0].toUpperCase()+words[i].slice(1);
+// }
+// console.log(words);

@@ -138,13 +138,19 @@
 
 function alienLanguage(str){
   let words = str.toUpperCase().split(' ');
+  let newWords = [];
   for (let i = 0; i < words.length; i++) {
     // const element = array[i];
     // return words.lastIndexOf(words[i])
-    // words[i]=words[i][words.length - 1]
-    words[i]=words[i][words.length - 1]
+    // newWords[i]=words[i][words[i].length - 1]
+    // return words[i][words.length - 1]
+    // newWords.push(words[i][words[i].length - 1]);
+    words[i] = words[i].slice(0, words[i].length - 1).concat(words[i].slice(words[i].length - 1).toLowerCase());
   }
-  return words;
+  
+  // return words.map(word => word)
+  // return newWords;
+  return words.join(' ');
 }
 
 console.log(alienLanguage("My name is John"));

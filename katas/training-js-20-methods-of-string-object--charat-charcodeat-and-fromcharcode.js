@@ -184,3 +184,41 @@ answer2="?";
 answer3="?";
 
 console.log(topSecret());
+
+
+
+
+
+// var str="abcde";
+// for (var i=0;i<str.length;i++){
+//   console.log(str.charAt(i),str.charCodeAt(i));
+// }
+
+// var chars=[];
+// for (var i=97;i<123;i++){
+//   chars.push(String.fromCharCode(i));
+// }
+// console.log(chars.join(""))
+//output:
+// abcdefghijklmnopqrstuvwxyz
+
+// function decode(str){
+//   var chars=str.split("");
+//   for (var i=0;i<chars.length;i++) 
+//     chars[i]=String.fromCharCode(chars[i].charCodeAt()-1);
+//   return chars.join("");
+// }
+// function encode(str){
+//   var chars=str.split("");
+//   for (var i=0;i<chars.length;i++) 
+//     chars[i]=String.fromCharCode(chars[i].charCodeAt()+1);
+//   return chars.join("");
+// }
+// var s="abcde"
+// s=encode(s);
+// console.log("encode:",s)    //encryption s
+// s=decode(s);
+// console.log("decode:",s)    //decryption s
+//output:
+// encode: bcdef
+// decode: abcde

@@ -185,10 +185,6 @@ answer3="?";
 
 console.log(topSecret());
 
-
-
-
-
 // var str="abcde";
 // for (var i=0;i<str.length;i++){
 //   console.log(str.charAt(i),str.charCodeAt(i));

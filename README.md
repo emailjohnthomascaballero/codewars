@@ -23,7 +23,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2 id="about">I. About the Journey</h2>
-In this coding journey, I am dedicated to honing my logical thinking and algorithmic skills through CodeWars challenges. This repository serves as a comprehensive showcase of all the code I've crafted during this practice, highlighting my progress and solutions as I navigate the diverse array of coding puzzles on CodeWars.
+In this coding journey, I'm working on improving my problem-solving and coding skills by solving challenges on CodeWars. This collection shows all the code I've written while practicing, showing how I've grown and the solutions I've found to different coding problems.
 
 <!-- Back to Top -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

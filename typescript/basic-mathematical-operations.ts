@@ -12,7 +12,7 @@
 // ('/', 49, 7) --> 7
 
 export function basicOp(operation: string, value1: number, value2: number): number {
-  // return `1 '+' 1`;
+  return eval(`${value1} ${operation} ${value2}`);
 }
 
 console.log(basicOp('+', 4, 7));

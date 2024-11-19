@@ -35,6 +35,7 @@ console.log(
 );
 console.log(countPositivesSumNegatives(null));
 console.log(countPositivesSumNegatives([]));
-console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+// console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 // reduce method have errors
+// if no negative numbers find there is an errors

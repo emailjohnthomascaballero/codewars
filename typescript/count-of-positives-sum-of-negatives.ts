@@ -12,7 +12,8 @@
 
 export function countPositivesSumNegatives(input: any) {
   // throw new Error('The method or operation is not implemented.');
-  if (input === null || input.length == 0) {
+  if (input === null || input.length == 0 || input
+    .filter((item: number) => item < 0)) {
     return [];
   } else {
     let positiveNumbers = input.filter((item: number) => item > 0).length;

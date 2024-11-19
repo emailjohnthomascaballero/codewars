@@ -13,7 +13,7 @@
 export function countPositivesSumNegatives(input: any) {
   // throw new Error('The method or operation is not implemented.');
   if (input === null || input.length == 0 || input
-    .filter((item: number) => item < 0)) {
+    .filter((item: number) => item < 0).length == 0) {
     return [];
   } else {
     let positiveNumbers = input.filter((item: number) => item > 0).length;
@@ -36,7 +36,7 @@ console.log(
 );
 console.log(countPositivesSumNegatives(null));
 console.log(countPositivesSumNegatives([]));
-// console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 // reduce method have errors
 // if no negative numbers find there is an errors

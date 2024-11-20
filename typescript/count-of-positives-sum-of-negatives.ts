@@ -16,7 +16,7 @@ export function countPositivesSumNegatives(input: any) {
     .filter((item: number) => item < 0).length == 0) {
     return [];
   } else {
-    let positiveNumbers = input.filter((item: number) => item > 0).length;
+    let positiveNumbers = input.filter((item: number) => item >= 0).length;
     let negativeNumbers = input
       .filter((item: number) => item < 0)
       .reduce(

@@ -23,9 +23,6 @@ export function countPositivesSumNegatives(input: any) {
         (accumulator: number, currentValue: number) =>
           accumulator + currentValue
       );
-    // return positiveNumbers.concat(negativeNumbers)
-    // return positiveNumbers
-    // return [positiveNumbers, negativeNumbers];
     return negativeNumbers !== null ? [positiveNumbers, negativeNumbers] : [positiveNumbers];
   }
 }

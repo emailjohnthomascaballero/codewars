@@ -12,10 +12,11 @@
 
 export function countPositivesSumNegatives(input: any) {
   // throw new Error('The method or operation is not implemented.');
-  if (input === null || input.length == 0 || input
-    .filter((item: number) => item < 0).length == 0) {
+  if (input === null || input.length == 0) {
     return [];
-  } else {
+  } else if (input.filter((item: number) => item < 0).length == 0)
+    return [input.length, 0];
+  else {
     let positiveNumbers = input.filter((item: number) => item > 0).length;
     let negativeNumbers = input
       .filter((item: number) => item < 0)
@@ -23,7 +24,9 @@ export function countPositivesSumNegatives(input: any) {
         (accumulator: number, currentValue: number) =>
           accumulator + currentValue
       );
-    return negativeNumbers !== null ? [positiveNumbers, negativeNumbers] : [positiveNumbers];
+    return negativeNumbers !== null
+      ? [positiveNumbers, negativeNumbers]
+      : [positiveNumbers];
   }
 }
 
@@ -35,6 +38,10 @@ console.log(
 console.log(countPositivesSumNegatives(null));
 console.log(countPositivesSumNegatives([]));
 console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); //error cannot sum negative numbers
-console.log(countPositivesSumNegatives([0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14]));
+console.log(
+  countPositivesSumNegatives([
+    0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14,
+  ])
+);
 
 // expected [] to deeply equal [ 50, +0 ]

@@ -34,7 +34,7 @@ console.log(
 );
 console.log(countPositivesSumNegatives(null));
 console.log(countPositivesSumNegatives([]));
-console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); //error cannot sum negative numbers
 console.log(countPositivesSumNegatives([0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14]));
 
 // expected [] to deeply equal [ 50, +0 ]

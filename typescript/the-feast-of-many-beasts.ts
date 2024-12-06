@@ -7,5 +7,9 @@
 // Assume that beast and dish are always lowercase strings, and that each has at least two letters. beast and dish may contain hyphens and spaces, but these will not appear at the beginning or end of the string. They will not contain numerals.
 
 export function feast(beast:string, dish:string):boolean {
-  // Your Code
+  return beast.split('')[0] + beast.split('')[beast.length - 1] == dish.split('')[0] + dish.split('')[dish.length - 1];
 }
+
+console.log(feast("great blue heron", "garlic naan"));
+console.log(feast("chickadee", "chocolate cake"));
+console.log(feast("brown bear", "bear claw"));

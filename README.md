@@ -66,6 +66,8 @@ In this coding journey, I'm working on improving my problem-solving and coding s
     <img src="./6-kyu-js.png" width="100%">
     <p align="right">(<a href="#readme-top">back to top</a>)</p>
     <img src="./5-kyu-js.jpg" width="100%">
+    <p align="right">(<a href="#readme-top">back to top</a>)</p>
+    <img src="./7-kyu-ts.jpg" width="100%">
   </a>
 </p>
 

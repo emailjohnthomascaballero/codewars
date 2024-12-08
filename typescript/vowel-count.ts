@@ -8,7 +8,8 @@
 
 export class Kata {
   static getCount(str: string): number {
-    return 1;
+    const filterByVowels = (char: string) => char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u';
+    return str.split('').filter(filterByVowels).length;
   }
 }
 

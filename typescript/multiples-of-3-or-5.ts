@@ -12,7 +12,14 @@
 
 export class Challenge {
   static solution(number: number) {
-    return 0; //change this
+    let multipleOne = 0;
+    let arr = [];
+    for (let index = 3; index < number; index+=3) {
+      // multipleOne =+ index;
+      arr.push(index);
+    }
+    // return multipleOne;
+    return arr
   }
 }
 

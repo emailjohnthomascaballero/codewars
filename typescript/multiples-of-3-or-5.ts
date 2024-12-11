@@ -12,15 +12,26 @@
 
 export class Challenge {
   static solution(number: number) {
-    let multipleOne = 0;
-    let arr = [];
-    for (let index = 3; index < number; index+=3) {
-      // multipleOne =+ index;
-      arr.push(index);
+    let arrThree = [];
+    let arrFive = [];
+    if (number < 0) {
+      return 0;
+    } else {
+      for (let index = 3; index < number; index += 3) {
+        arrThree.push(index);
+      }
+
+      for (let index = 5; index < number; index += 5) {
+        arrFive.push(index);
+      }
+
+      return (
+        arrThree.reduce((accumulator, current) => accumulator + current) +
+        arrFive.reduce((accumulator, current) => accumulator + current)
+      );
     }
-    // return multipleOne;
-    return arr
   }
 }
 
 console.log(Challenge.solution(10));
+console.log(Challenge.solution(-1));

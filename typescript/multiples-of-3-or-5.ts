@@ -12,8 +12,8 @@
 
 export class Challenge {
   static solution(number: number) {
-    let arrThree = [];
-    let arrFive = [];
+    let arrThree = [0];
+    let arrFive = [0];
     if (number < 0) {
       return 0;
     } else {
@@ -35,3 +35,6 @@ export class Challenge {
 
 console.log(Challenge.solution(10));
 console.log(Challenge.solution(-1));
+console.log(Challenge.solution(15));
+console.log(Challenge.solution(4));
+console.log(Challenge.solution(2));

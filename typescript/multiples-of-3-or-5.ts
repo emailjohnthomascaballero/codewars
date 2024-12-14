@@ -30,7 +30,8 @@ export class Challenge {
       //   arrFive.reduce((accumulator, current) => accumulator + current)
       // );
       // return [...arrThree, ...arrFive].reduce((accumulator, current) => accumulator + current)
-      return [...arrThree, ...arrFive].filter((item, index) => [...arrThree, ...arrFive].indexOf(item) === index).reduce((accumulator, current) => accumulator + current);
+      let arr = [...arrThree, ...arrFive];
+      return arr.filter((item, index) => arr.indexOf(item) === index).reduce((accumulator, current) => accumulator + current);
       // filter will remove the duplicates
     }
   }

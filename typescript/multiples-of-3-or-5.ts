@@ -25,16 +25,19 @@ export class Challenge {
         arrFive.push(index);
       }
 
-      return (
-        arrThree.reduce((accumulator, current) => accumulator + current) +
-        arrFive.reduce((accumulator, current) => accumulator + current)
-      );
+      // return (
+      //   arrThree.reduce((accumulator, current) => accumulator + current) +
+      //   arrFive.reduce((accumulator, current) => accumulator + current)
+      // );
+      // return [...arrThree, ...arrFive].reduce((accumulator, current) => accumulator + current)
+      return [...arrThree, ...arrFive].filter((item, index) => [...arrThree, ...arrFive].indexOf(item) === index).reduce((accumulator, current) => accumulator + current);
+      // filter will remove the duplicates
     }
   }
 }
 
 console.log(Challenge.solution(10));
-console.log(Challenge.solution(-1));
-console.log(Challenge.solution(15));
-console.log(Challenge.solution(4));
-console.log(Challenge.solution(2));
+// console.log(Challenge.solution(-1));
+// console.log(Challenge.solution(15));
+// console.log(Challenge.solution(4));
+// console.log(Challenge.solution(2));

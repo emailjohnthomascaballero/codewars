@@ -39,7 +39,7 @@ export class Challenge {
 }
 
 console.log(Challenge.solution(10));
-// console.log(Challenge.solution(-1));
-// console.log(Challenge.solution(15));
-// console.log(Challenge.solution(4));
-// console.log(Challenge.solution(2));
+console.log(Challenge.solution(-1));
+console.log(Challenge.solution(15));
+console.log(Challenge.solution(4));
+console.log(Challenge.solution(2));

@@ -16,6 +16,56 @@
 // Program "iiisdoso" should return numbers [8, 64].
 // Program "iiisdosodddddiso" should return numbers [8, 64, 3600].
 
+
+// EASY EXPLANATION
+// The goal is to create a program that can understand and run a special language called "Deadfish." This language works on one number, starting at 0, and performs simple operations using a few commands.
+
+// Here's a breakdown of how it works:
+
+// Commands:
+
+// i: Increase the number by 1.
+// d: Decrease the number by 1.
+// s: Square the number (multiply it by itself).
+// o: Add the current number to a result list (output it).
+// How it works:
+
+// The language starts with the number 0.
+// The program uses the commands to change the number.
+// Other characters that are not "i", "d", "s", or "o" do nothing and are ignored.
+// Examples:
+// Program: "iiisdoso"
+
+// Start with 0.
+// i: Increase to 1.
+// i: Increase to 2.
+// i: Increase to 3.
+// s: Square the number (3 * 3 = 9).
+// d: Decrease to 8.
+// o: Output 8 (so 8 is added to the result list).
+// s: Square 8 (8 * 8 = 64).
+// o: Output 64 (add 64 to the result list).
+// Result: [8, 64]
+// Program: "iiisdosodddddiso"
+
+// Start with 0.
+// i: Increase to 1.
+// i: Increase to 2.
+// i: Increase to 3.
+// s: Square to 9.
+// d: Decrease to 8.
+// o: Output 8.
+// s: Square to 64.
+// o: Output 64.
+// d: Decrease to 63.
+// d: Decrease to 62.
+// d: Decrease to 61.
+// d: Decrease to 60.
+// i: Increase to 61.
+// s: Square to 3721.
+// o: Output 3721.
+// Result: [8, 64, 3721]
+
 /** return the output array and ignore all non-op characters */
 export function parse(data: string): number[] {
   return [1]

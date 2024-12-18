@@ -74,9 +74,15 @@ export function parse(data: string): any {
   //   (accumulator:any, currentValue) => currentValue === 'i' ? accumulator + 1 : currentValue === 'd' ? accumulator - 1 : currentValue === 's' ? accumulator * accumulator : currentValue === 'o' ? initialValue : accumulator,
   //   initialValue,
   // );
-  let result:number = 0;
-  data.split('').map(char => char === 'i' ? result += 1 : char === 'd' ? result -= 1 : char === 's' ? result *= result : char === 'o' ? 'o' : 0);
+  let result:number[] = [0];
+  let index = 0;
+  data.split('').map(char => char === 'i' ? result[index] += 1 : 
+    char === 'd' ? result[index] -= 1 : 
+    char === 's' ? result[index] *= result[index] :
+    char === 'o' ? result.push(result[index]) && index++ : 0);
   return result;
+
+  // Result: [8, 64]
 }
 
 console.log(parse("iiisdoso"));

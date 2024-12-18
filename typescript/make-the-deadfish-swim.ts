@@ -67,8 +67,16 @@
 // Result: [8, 64, 3721]
 
 /** return the output array and ignore all non-op characters */
-export function parse(data: string): number[] {
-  return [1]
+export function parse(data: string): any {
+  // return data.split('').map(char => char === 'i' ? 1 : char === 'd' ? -1 : char === 's' ? 2 : char === 'o' ? 'o' : 0);
+  // const initialValue = 0;
+  // return data.split('').reduce(
+  //   (accumulator:any, currentValue) => currentValue === 'i' ? accumulator + 1 : currentValue === 'd' ? accumulator - 1 : currentValue === 's' ? accumulator * accumulator : currentValue === 'o' ? initialValue : accumulator,
+  //   initialValue,
+  // );
+  let result:number = 0;
+  data.split('').map(char => char === 'i' ? result += 1 : char === 'd' ? result -= 1 : char === 's' ? result *= result : char === 'o' ? 'o' : 0);
+  return result;
 }
 
 console.log(parse("iiisdoso"));

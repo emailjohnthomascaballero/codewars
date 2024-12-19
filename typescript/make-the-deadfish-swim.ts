@@ -67,7 +67,7 @@
 // Result: [8, 64, 3721]
 
 /** return the output array and ignore all non-op characters */
-export function parse(data: string): any {
+export function parse(data: string): number[] {
   // return data.split('').map(char => char === 'i' ? 1 : char === 'd' ? -1 : char === 's' ? 2 : char === 'o' ? 'o' : 0);
   // const initialValue = 0;
   // return data.split('').reduce(
@@ -80,6 +80,7 @@ export function parse(data: string): any {
     char === 'd' ? result[index] -= 1 : 
     char === 's' ? result[index] *= result[index] :
     char === 'o' ? result.push(result[index]) && index++ : 0);
+  result.pop()
   return result;
 
   // Result: [8, 64]

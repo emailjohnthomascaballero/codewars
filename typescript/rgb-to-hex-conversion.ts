@@ -10,8 +10,18 @@
 // 0, 0, 0       --> "000000"
 // 148, 0, 211   --> "9400D3"
 
+// additional tips:
+// toString(radix)
+// radix	Optional.
+// The base to use.
+// Must be an integer between 2 and 36.
+// Base 2 is binary
+// Base 8 is octal
+// Base 16 is hexadecimal.
+
 export function rgb(r: number, g: number, b: number): string {
-  return 'test'
+  return `${r.toString(16)}${g.toString(16)}${b.toString(16)}`.toUpperCase();
 }
 
-console.log(rgb(255, 255, 255));
+console.log(rgb(0, 0, -20), "000000");
+console.log(rgb(255, 255, 255), "FFFFFF");

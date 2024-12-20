@@ -11,8 +11,7 @@
 // 148, 0, 211   --> "9400D3"
 
 export function rgb(r: number, g: number, b: number): string {
-  // return 'test'
-  return `#${[r, g, b].map(x => x.toString(16).padStart(2, '0')).join('')}`
+  return 'test'
 }
 
 console.log(rgb(255, 255, 255));

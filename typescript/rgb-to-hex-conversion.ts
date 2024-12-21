@@ -20,8 +20,13 @@
 // Base 16 is hexadecimal.
 
 export function rgb(r: number, g: number, b: number): string {
-  return `${r.toString(16)}${g.toString(16)}${b.toString(16)}`.toUpperCase();
+  // return `${r.toString(16)}${g.toString(16)}${b.toString(16)}`.toUpperCase();
+  // return r.toString().padStart(2, "0")
+  // return b.toString(16).padStart(2, "0")
+  return [r, g, b].map(num => num < 0 ? 0 : num > 255 ? 255 : num).map(num => num.toString(16).padStart(2, "0")).join("").toUpperCase();
 }
 
 console.log(rgb(0, 0, -20), "000000");
 console.log(rgb(255, 255, 255), "FFFFFF");
+console.log(rgb(255, 255, 300), "FFFFFF");
+console.log(rgb(148, 0, 211), "9400D3");

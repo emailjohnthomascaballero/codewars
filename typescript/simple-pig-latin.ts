@@ -20,4 +20,4 @@ export const pigIt = (a : string) : any =>  {
 }
 
 console.log(pigIt("Pig latin is cool"));
-console.log(pigIt("Hello world !"));
+console.log(pigIt("Hello world !")); // error! should not be "!ay"

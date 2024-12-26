@@ -16,7 +16,7 @@ export const pigIt = (a : string) : any =>  {
   // return secondWords.split(' ').map(word => word + firstWords.split('').map(word => word).join('') + 'ay')
   // return secondWords.split(' ').map(word => word + 'ay')
   // return secondWords.map((word, index) => word + firstWords[index] + 'ay' );
-  return secondWords.map((word, index) => `${word}${firstWords[index]}ay`);
+  return secondWords.map((word, index) => `${word}${firstWords[index]}ay`).join(' ');
 }
 
 console.log(pigIt("Pig latin is cool"));

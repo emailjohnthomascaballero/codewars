@@ -23,8 +23,8 @@ export const pigIt = (a : string) : any =>  {
   // return secondWords.map((word, index) => word);
 }
 
-console.log(pigIt("Pig latin is cool"));
-console.log(pigIt("Hello world !"));
-console.log(pigIt("This  is my string ?"));
-console.log(pigIt("This is my string ."));
-//  error undefineday // white space error
+// console.log(pigIt("Pig latin is cool"));
+// console.log(pigIt("Hello world !"));
+console.log(pigIt("This  is my string ?")); //with whitespace
+// console.log(pigIt("This is my string ."));
+//  error undefineday // white space error // maybe trim() will help

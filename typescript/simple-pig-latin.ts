@@ -42,8 +42,14 @@ export const pigIt = (a : string) : any =>  {
   // let secondWords = a.split(' ').map(word => word === '' ? 'null' : word.split('').slice(1).join('')).filter(word => word !== 'null');
   // let firstWords = a.split(' ').map(word => word === '' ? 'null' : word.split('')[0]).filter(word => word !== 'null')
   // return secondWords.map((word, index) => `${word}${['!', '?', '.'].includes(firstWords[index]) ? firstWords[index] : firstWords[index] + 'ay'}`).join(' ');
+
+  // new code
   let wordsArray = a.split(' ');
-  return wordsArray
+  let firstLetters = wordsArray.map(word => word === '' ? word : word[0]); //['T', '',  '', 'i', 'm', 's', '?']
+  let newWords = wordsArray.map(word => word === '' ? word : word.split('').slice(1).join('')) //[ 'his', '', '', 's', 'y', 'tring', '' ]
+  // return firstLetters;
+  return newWords;
+  // notes: use filter() to remove white space
 }
 
 // console.log(pigIt("Pig latin is cool"));

@@ -6,7 +6,7 @@
 // pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 // pigIt('Hello world !');     // elloHay orldway !
 
-export const pigIt = (a : string) : any =>  {
+export const pigIt = (a : string) : string =>  {
   // let secondWords = a.split(' ').map(word => word.split('').slice(1).join('')).join(' '); //second words
   // let secondWords = a.split(' ').map(word => word === '' ? word : word.split('').slice(1).join('')); //second words output: [ 'ig', 'atin', 's', 'ool' ]
 
@@ -46,10 +46,11 @@ export const pigIt = (a : string) : any =>  {
   // new code
   let wordsArray = a.split(' ');
   let firstLetters = wordsArray.map(word => word === '' ? word : word[0]); //['T', '',  '', 'i', 'm', 's', '?']
-  let newWords = wordsArray.map(word => word === '' ? word : word.split('').slice(1).join('')) //[ 'his', '', '', 's', 'y', 'tring', '' ]
-  let results = newWords.map((word, index) => word + firstLetters[index])
+  let newWords = wordsArray.map(word => word === '' ? word : word.split('').slice(1).join('')); //[ 'his', '', '', 's', 'y', 'tring', '' ]
+  let addAy = newWords.map((word, index) => `${word}${['!', '?', '.'].includes(firstLetters[index]) ? firstLetters[index] : firstLetters[index] + 'ay'}`); //[ 'hisTay', 'ay', 'ay', 'siay', 'ymay', 'tringsay', '?' ]
+  let filterSpaces = addAy.map((word) => word == 'ay' ? '' : word).join(' ');
   
-  return results;
+  return filterSpaces;
   // notes: use filter() to remove white space
 }
 

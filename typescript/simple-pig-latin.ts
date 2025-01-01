@@ -47,8 +47,9 @@ export const pigIt = (a : string) : any =>  {
   let wordsArray = a.split(' ');
   let firstLetters = wordsArray.map(word => word === '' ? word : word[0]); //['T', '',  '', 'i', 'm', 's', '?']
   let newWords = wordsArray.map(word => word === '' ? word : word.split('').slice(1).join('')) //[ 'his', '', '', 's', 'y', 'tring', '' ]
-  // return firstLetters;
-  return newWords;
+  let results = newWords.map((word, index) => word + firstLetters[index])
+  
+  return results;
   // notes: use filter() to remove white space
 }
 

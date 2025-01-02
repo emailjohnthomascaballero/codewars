@@ -14,8 +14,16 @@
 
 // "This is my first ROT13 excercise!" -> "Guvf vf zl svefg EBG13 rkprepvfr!"
 
-export function rot13(str: string): string {
 
+// tips:
+// Applying ROT13 to a piece of text requires examining its alphabetic characters and replacing each one by the letter 13 places further along in the alphabet, wrapping back to the beginning if necessary.[2]
+
+// To encode message: A becomes N, B becomes O, and so on up to M, which becomes Z, then the sequence continues at the beginning of the alphabet: N becomes A, O becomes B, and so on to Z, which becomes M. To decode a message, You apply the same substitution rules, but this time on the ROT13 encrypted text. (Any other character, for example numbers, symbols, punctuation or whitespace, are left unchanged.)
+
+// source: https://en.wikipedia.org/wiki/ROT13
+
+export function rot13(str: string): string {
+// use charCodeAt() method
   return '';
 }
 

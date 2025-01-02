@@ -22,9 +22,10 @@
 
 // source: https://en.wikipedia.org/wiki/ROT13
 
-export function rot13(str: string): string {
+export function rot13(str: string): any {
 // use charCodeAt() method
-  return '';
+  return str.charCodeAt(13);
 }
 
-console.log(rot13("EBG13 rknzcyr."));
+console.log(rot13("a"));
+// console.log(rot13("EBG13 rknzcyr."));

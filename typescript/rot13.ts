@@ -23,7 +23,7 @@
 // source: https://en.wikipedia.org/wiki/ROT13
 
 export function rot13(str: string): any {
-// use charCodeAt() method and fromCharCode()
+// use charCodeAt() method and fromCharCode(num + 13)
   return str.charCodeAt(0);
 }
 

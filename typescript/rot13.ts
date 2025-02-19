@@ -24,9 +24,18 @@
 
 export function rot13(str: string): any {
 // use charCodeAt(num) method and fromCharCode(num + 13)
-  let charCodeAt = str.charCodeAt(0);
-  return String.fromCharCode(charCodeAt + 13);
+
+  // let charCodeAt = str.charCodeAt(0);
+  // return String.fromCharCode(charCodeAt + 13);
+
+  let newStr = '';
+  for (let i = 0; i < str.length; i++) {
+      newStr += String.fromCharCode(str.charCodeAt(i) + 13);
+  }
+  return newStr;
 }
 
-console.log(rot13("a"));
-// console.log(rot13("EBG13 rknzcyr."));
+
+
+// console.log(rot13("a"));
+console.log(rot13("EBG13 rknzcyr."));

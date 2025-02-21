@@ -1,7 +1,5 @@
 // ROT13
 
-import { number } from "./number-of-people-in-the-bus";
-
 // How can you tell an extrovert from an introvert at NSA?
 // Va gur ryringbef, gur rkgebireg ybbxf ng gur BGURE thl'f fubrf.
 
@@ -30,13 +28,17 @@ export function rot13(str: string): any {
   // let charCodeAt = str.charCodeAt(3);
   // return String.fromCharCode(charCodeAt + 13);
 
-  let newStr = '';
-  for (let i = 0; i < str.length; i++) {
-      newStr += String.fromCharCode(str.charCodeAt(i) + 13);
-  }
-  return newStr;
+  // let newStr = '';
+  // for (let i = 0; i < str.length; i++) {
+  //     newStr += String.fromCharCode(str.charCodeAt(i) + 13);
+  // }
+  // return newStr;
 
   // return str.split('').map(x => typeof x === 'number')
+
+  // return str.split('').map(x => String.fromCharCode(x.charCodeAt(0) + 13)).join('');
+
+  return str.split('').map(x => Number(x) >= 0 ? x : String.fromCharCode(x.charCodeAt(0) + 13)).join('');
 
   // Output: ROT>@-x{p;
 }

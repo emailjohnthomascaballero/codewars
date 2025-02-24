@@ -38,12 +38,14 @@ export function rot13(str: string): any {
 
   // return str.split('').map(x => String.fromCharCode(x.charCodeAt(0) + 13)).join('');
 
-  return str.split('').map(x => Number(x) >= 0 ? x : String.fromCharCode(x.charCodeAt(0) + 13)).join('');
+  return str.split('').map(x => String.fromCharCode(x.charCodeAt(0) - 13)).join(''); // convert r to e
+
+  // return str.split('').map(x => Number(x) >= 0 ? x : String.fromCharCode(x.charCodeAt(0) + 13)).join('');
 
   // Output: ROT>@-x{p;
 }
 
 
 
-// console.log(rot13("a"));
-console.log(rot13("EBG13 rknzcyr."));
+console.log(rot13("r"));
+// console.log(rot13("EBG13 rknzcyr."));

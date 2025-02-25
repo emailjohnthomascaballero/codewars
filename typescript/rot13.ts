@@ -40,9 +40,11 @@ export function rot13(str: string): any {
 
   // return str.split('').map(x => String.fromCharCode(x.charCodeAt(0) - 13)).join(''); // convert r to e
 
-  return str.split('').map(x => Number(x) >= 0 ? x : x.toLowerCase() === x ? String.fromCharCode(x.charCodeAt(0) - 13) : String.fromCharCode(x.charCodeAt(0) + 13)).join('');
+  // return str.split('').map(x => x > 'b').join(''); //trying alphabet condition if working.
 
-  // Output: ROT>@-x{p;
+  return str.split('').map(x => Number(x) >= 0 ? x : x.toLowerCase() === x && x > 'm' ? String.fromCharCode(x.charCodeAt(0) - 13) : String.fromCharCode(x.charCodeAt(0) + 13)).join('');
+
+  // Output: ROT13 example;
 }
 
 

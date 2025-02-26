@@ -45,6 +45,9 @@ export function rot13(str: string): any {
   return str.split('').map(x => Number(x) >= 0 ? x : x.toLowerCase() === x && x > 'm' ? String.fromCharCode(x.charCodeAt(0) - 13) : String.fromCharCode(x.charCodeAt(0) + 13)).join('');
 
   // Output: ROT13 example;
+  // ERROR: For this task you're only supposed to substitute characters. Not spaces, punctuation, numbers, etc.
+  // REGEX that select all punctuation: [[:punct:]]
+
 }
 
 

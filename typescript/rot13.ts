@@ -47,6 +47,8 @@ export function rot13(str: string): any {
   // Output: ROT13 example;
   // ERROR: For this task you're only supposed to substitute characters. Not spaces, punctuation, numbers, etc.
   // REGEX that select all punctuation: [[:punct:]]
+  // REGEX that select all numbers: \d+
+
 
 }
 

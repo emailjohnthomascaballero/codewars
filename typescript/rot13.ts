@@ -42,6 +42,10 @@ export function rot13(str: string): any {
 
   // return str.split('').map(x => x > 'b').join(''); //trying alphabet condition if working.
 
+  // let regex = /[!"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~]/g;
+
+  // return str.split('').map(x => Number(x) >= 0 ? x : x.match(regex) ? x : x.toLowerCase() === x && x > 'm' ? String.fromCharCode(x.charCodeAt(0) - 13) : String.fromCharCode(x.charCodeAt(0) + 13)).join('');
+
   return str.split('').map(x => Number(x) >= 0 ? x : x.toLowerCase() === x && x > 'm' ? String.fromCharCode(x.charCodeAt(0) - 13) : String.fromCharCode(x.charCodeAt(0) + 13)).join('');
 
   // Output: ROT13 example;
